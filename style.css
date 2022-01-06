@@ -11,7 +11,7 @@
       .lala{
           color: rgb(0, 0, 0);
       }
-      section{
+      .flexible-container{
           display: flex;
       }
       .alada{
@@ -49,4 +49,38 @@
           background-image: url(images/dream-bg.png);
           background-repeat: no-repeat;
           background-position: right;
+      }
+      .mtt{
+          margin: 0 auto;
+        margin-left: 5%;
+        margin-right: 5%
+          padding: 20px;
+          width: 40%;
+          box-shadow: 10px 10px 40px gray;
+      }
+      .ex{
+          background-image: url(images/exp-bg.png);
+          background-repeat: no-repeat;
+          
+
+      }
+      #idex{
+          border-left: 7px solid;
+          border-image: linear-gradient(red, rgb(219, 255, 12));
+        border-image-slice: 1;
+
+
+      }
+      #tf{
+           border-left: 7px solid;
+          border-image: linear-gradient(red, rgb(85, 12, 255));
+        border-image-slice: 1;
+
+      }
+      footer p{
+          text-align: center;
+      }
+      #footer{
+          color: red;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
